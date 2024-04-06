@@ -4,7 +4,7 @@ import kendaraan.Kendaraan;
 
 public class Motor extends Kendaraan {
     @Override
-    
+    public void star(){ System.out.println("Motor " + this.getname() + " dijalankan"); }
 
     @Override
     public void Stop() {

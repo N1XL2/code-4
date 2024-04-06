@@ -1,5 +1,3 @@
-package kendaraan;
-
 public abstract class Kendaraan {
     String name;
     String model;
@@ -7,7 +5,9 @@ public abstract class Kendaraan {
     int tahun;
 
     public abstract void Start();
-    
+    public abstract void Stop();
+    public abstract void Brake();
+
     public void getInfo(){
         System.out.println("Kendaraan: " + name);
         System.out.println("Model : " + model);
